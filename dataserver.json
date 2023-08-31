@@ -1,0 +1,80 @@
+[
+    {
+    "id": 1,
+    "nombre": "televisión",
+    "precio": 150000,
+    "marca": "Samsung",
+    "pulgadas": "44`"
+},
+{
+    "id": 2,
+    "nombre": "televisión",
+    "precio": 200000,
+    "marca": "LG",
+    "pulgadas": "50`"
+},
+{
+    "id": 3,
+    "nombre": "televisión",
+    "precio": 180000,
+    "marca": "Samsung",
+    "pulgadas": "48`"
+},
+{
+    "id": 4,
+    "nombre": "cocina",
+    "precio": 140000,
+    "marca": "Patrick"
+},
+{
+    "id": 5,
+    "nombre": "cocina",
+    "precio": 150000,
+    "marca": "Escorial"
+},
+{
+    "id": 6,
+    "nombre": "cafetera",
+    "precio": 90000,
+    "marca": "Philco"
+},
+{
+    "id": 7,
+    "nombre": "licuadora",
+    "precio": 60000,
+    "marca": "Yelmo"
+},
+{
+    "id": 8,
+    "nombre": "heladera",
+    "precio": 240000,
+    "marca": "Samsung",
+    "no-frost": false
+},
+{
+    "id": 9,
+    "nombre": "heladera",
+    "precio": 150000,
+    "marca": "Patrick",
+    "no-frost": true
+},
+{
+    "id": 10,
+    "nombre": "heladera",
+    "precio": 300000,
+    "marca": "LG",
+    "no-frost": true
+},
+{
+    "id": 11,
+    "nombre": "equipo de música",
+    "precio": 140000,
+    "marca": "Sony"
+},
+{
+    "id": 12,
+    "nombre": "equipo de música",
+    "precio": 190000,
+    "marca": "JBL"
+}
+]
