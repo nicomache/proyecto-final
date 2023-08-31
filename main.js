@@ -1,25 +1,25 @@
 const lista = document.getElementById("lista");
 
-const pedirPersonajes = async () => {
+const pedirProductos = async () => {
     try{
-        const response = await fetch("https://rickandmortyapi.com/api/characterdata")
+        const response = await fetch("./dataserver.json")
         const data = await response.json();
-        const personajes = data.results;
+        console.log(data);
 
-        personajes.forEach(item => {
-            const li = document.createElement ("ul");
-            li.innerHTML = `
-            <h2>${item.name}</h2>
-            <h3>${item.species}</h3>
-            <img src=${item.image}></img>`;
-    
-            lista.append(li)
+        data.forEach(item => {
+            const card = document.createElement("div")
+            card.innerHTML = `
+            <h2>${item.nombre}</h2>
+            <h3>$${item.precio}</h3>
+            <p>${item.marca}</p>
+            <img src="${item.imagen}"></img>`
+            lista.append(card)
         });
+    
     }
      catch (error) {
         console.log(error)
     }
-
 };
 
-pedirPersonajes();
+pedirProductos();
